@@ -17,5 +17,7 @@ let promise = new Promise((resolve, reject) => {
         
     }, 4000);
 
+
     // resolve("promise is resolverd");
 }); 
+console.log(promise);
