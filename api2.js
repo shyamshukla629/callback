@@ -14,12 +14,14 @@
 //     console.log(data1);
 // };
 // getData();
+  
 
-const api_Url="https://api.github.com/users/shyamshukla629";
-setTimeout( getData1=async()=>{
-    const data=await fetch(api_Url);
-    const jsonvalue=await data.json();
-    console.log(jsonvalue);
-},5000);
-getData1();
-console.log("hello world");
+// fetch api call  using set timeout function 
+// const api_Url="https://api.github.com/users/shyamshukla629";
+// setTimeout( getData1=async()=>{
+//     const data=await fetch(api_Url);
+//     const jsonvalue=await data.json();
+//     console.log(jsonvalue);
+// },5000);
+// getData1();
+// console.log("hello world");
