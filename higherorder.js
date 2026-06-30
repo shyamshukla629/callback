@@ -22,3 +22,17 @@ const arr=[52,5,4,8,9,7,];
 
 // const output1=arr.filter((x)=>x>5);
 // console.log(output1);
+
+// generator function 
+// function* genreateSequence(){
+//     yield"A"
+//     yield"B";
+//     yield"C";
+// };
+//  const generator=genreateSequence();
+//  console.log(generator.next());
+//  console.log(generator.next());
+//  console.log(generator.next());
+
+
+
